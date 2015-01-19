@@ -1,0 +1,2 @@
+[30-Jan-2014 13:02:40] PHP Fatal error:  Call to undefined function  get_header() in /home/tshto/public_html/wordpress/wp-content/themes/medicenter/index.php on line 1
+[30-Jan-2014 13:02:47] PHP Fatal error:  Call to undefined function  language_attributes() in /home/tshto/public_html/wordpress/wp-content/themes/medicenter/header.php on line 2

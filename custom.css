@@ -1,0 +1,265 @@
+/* put here your custom css styles */
+
+
+/* A D J U S T  H E I G H T  O F  T H E  S L I D E R */
+.slider li
+{ 
+    height: 315px; 
+} 
+.slider_content_box {
+    margin-top: -315px;
+	min-height: 315px;
+}
+
+
+/* --- S O C I A L  M E D I A  I C O N S  F O R  S T A F F  A C C E S S --- */
+.social_icon2
+{
+	display: block;
+	width: 110px;
+	height: 29px;
+	background-repeat: no-repeat;
+	transition: background-position .3s ease;
+	-moz-transition: background-position .3s ease;
+	-webkit-transition: background-position .3s ease;
+	-o-transition: background-position .3s ease; 
+}
+a.social_icon2:hover, span.social_icon2:hover
+{
+	transition: background-position .3s ease;
+	-moz-transition: background-position .3s ease;
+	-webkit-transition: background-position .3s ease;
+	-o-transition: background-position .3s ease; 
+	background-position: 0 -29px;
+	text-decoration: none;
+}
+/* --- social_icons STAFF ACCESS --- */
+.social_icons2
+{
+	margin-top: 10px;
+}
+.social_icons2 li
+{
+	float: left;
+	margin-left: 5px;
+}
+.social_icons2 li:first-child
+{
+	margin-left: 0;
+}
+.social_icon2.single
+{
+	float: left;
+	margin-right: 5px;
+}
+
+/* --- B R E A D  C R U M B  T R A I L --- */
+.bread_crumb
+{
+	padding: 17px 0 0 0;	
+	margin: 0;
+	float:left;
+	clear:both;
+}
+.bread_crumb li
+{
+	font-size: 13px;
+	margin-left: 3px;
+	float:left;
+}
+.bread_crumb li:first-child
+{
+	margin-left: 0;
+}
+
+.bread_crumb li:last-child
+{
+	text-decoration:none;
+}
+
+.bread_crumb li a:hover
+{
+	color: #3156A3;
+}
+
+/* --- D E L E T E  B E L O W  F O R  D O C T O R  P R O F I L E S  M U S T  R E S T O R E  M A I N . J S  I N  D R O P B O X --- */
+
+.controls{
+	display: none;
+}
+
+.gallery_box
+{
+    cursor: default;
+}
+
+.gallery_box:hover h3
+{
+	color: #000;
+}
+
+.gallery_box:hover h5
+{
+	color: #666;
+}
+
+.gallery_box:hover .item_details
+{
+	border-bottom: 1px solid #E0E0E0;
+	color: #666666;
+	text-align: center;
+	line-height: 150%;
+	padding: 20px 0;
+}
+
+.gallery_box:hover .description
+{
+	background-color: #F0F0F0;
+}
+
+
+/* --- C O N T E N T  S T Y L E  C H A N G E S --- */
+
+p {padding:9px 0 7px 0}
+
+.push {margin:16px 0 0px 0;}
+
+.NOpush {margin: 0; padding:0}
+
+a strong {border-bottom: 1px dotted #3156A3; color: #3156A3; text-decoration: none; outline: none;}
+
+.PressRelease ul li {padding:2px 0 7px 0}
+.PressRelease a {line-height:20px; font-weight:bold}
+
+.wpb_wrapper ul li {margin:4px 0 4px 0; line-height:16px;}
+
+.wpb_wrapper h3 {padding:6px 0 10px 0}
+
+.wpb_wrapper h4 {padding:10px 0 6px 0; color:#111}
+
+.wpb_wrapper strong {color:#444}
+
+/*.simple h3 {padding:10px 0 10px 0}*/
+
+.wpb_wrapper ol li {margin:4px 0 4px 0; line-height:16px;}
+
+.bookmarkLinks p {padding:0}
+
+.mc_features .features_image{
+	display: none;
+}
+
+.comment_box .comments_number
+{
+	display:none;
+}
+
+.comment_box .date
+{
+	display:none;
+}
+
+.more_container
+{
+	padding-bottom:15px;
+}
+
+.crashPageLinks {padding:6px 0 0 0}
+
+/* --- hides the additional headers on features and blog posts --- */
+.post_content h2 {display:none}
+
+/* ---  hides story image on homepage & news stories list images --- */
+.item_content .thumb_image, .item_content .thumb_image img
+{
+	display: none;
+}
+
+/* --- search results for doctor layout --- */
+ul .item_content {clear:both}
+
+
+/* --- homepage blue box quick links layout --- */
+.homeBanner {background-color:#42B3E5; color: #fff; padding: 20px 0}
+.homeBanner a {color: #fff; text-decoration:none; border:none; padding: 0 0 0 6px}
+.homeBanner a:hover {color: #fff; text-decoration:underline; border:none; padding: 0 0 0 6px}
+.homeBanner .box_header {color: #fff; padding: 0 0 0 16px}
+.homeBanner .box_header:after
+{
+	content: "";
+	display: block;
+	bottom: 0;
+	width: 50px;
+	height: 2px;
+	background: #d1d1d1;
+	margin-top: 10px;
+}
+.homeBanner_widget {padding: 0 0 0 16px}
+
+.ccPhotoL {float:left; padding:0 20px 0 0}
+
+.ccTextL {float:left; padding:0 104px 0 0}
+
+/* --- homepage buttons --- */
+
+.home-button-box {padding-top:15px}
+
+/*--- footer colors middle box --- */
+
+.footer_box .connectWithFooter {color:#e5e5e5;}
+
+/*--- footer list events --- */
+
+.footer_box h4 {
+	font-size:13px;
+	font-weight:bold;
+	font-family:arial;
+	padding:22px 0 0 0;
+}
+
+.duration {color:#fff;}
+
+.footer_box ol { padding:0; margin:0; line-height:16px}
+.footer_box ol li { padding:0; margin:0;}
+
+/*--- Hides the category link at the bottom of template --- */
+
+.post_footer_details li {display:none}
+/*--------------------- */
+
+.MVV {font-size:16px}
+
+/*--- D O N A T E  B U T T O N S --- */
+
+.wpb_call_text {font-size:18px; position:relative; top:8px;}
+
+.wpb_call_to_action {margin-top:28px;}
+
+/*--- C R A S H  P A G E  B U T T O N S --- */
+
+.buttonCTRL {width:210px; padding-left:6px; height:29px;}
+
+.buttonTEXT {padding:0; position:relative; top:134px; color:#fff; font-size:14px; border-style:none !important; border:none !important;}
+
+.buttonIMG {padding:0;}
+
+.adobeReader {float:right; padding:0 0 20px 20px}
+
+
+
+/*--- H R  P A G E  B U T T O N S --- */
+.btnHR {margin:10px 20px 5px 0;}
+
+.btnHR-sp1 {margin:10px 20px 5px 0; width:106px}
+
+
+/*--- M N C C  B U T T O N S --- */
+.btnMNCC {padding:8px 0 6px 0;}
+
+h4.wpb_toggle {padding-left:20px;}
+
+/*--- F O U N D A T I O N  B U T T O N  M A I N  N A V --- */
+
+#menu-item-3373 a {background-color:#00a548; color:#fff}
+
+#menu-item-3373 a:hover {background-color:#00a548;}
